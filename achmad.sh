@@ -35,10 +35,10 @@ echo -e ${blue}"____________________________________________________________"
 echo
 sleep 2
 
-echo -e ${GREEN}"1. Cracked Password"
+echo "1. Cracked Password"
 echo "2. Send Link Virus"
 echo "3. SpamCall"
-echo -e "0. EXIT"$DELETE
+echo "0. EXIT"
 
 read -p "Select The Menu : " pil
 
