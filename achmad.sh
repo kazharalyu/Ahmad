@@ -23,7 +23,7 @@ lightcyan="\e[1;36m"
 
 sleep 2
 echo
-echo -e ${REED}"____________________________________________________________"
+echo "____________________________________________________________"
 echo "Youtube : Ahmad Guntur Al"
 echo "Owner   : Ahmad Guntur Alfandi"
 echo "Co Owner: Brother Kasyifil Aziz"
@@ -42,9 +42,9 @@ echo "0. EXIT"
 read -p "Select The Menu : " pil
 
 if [[ $pil = "1" ]] ;then
-echo -e $yellow"qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
+echo "qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
 elif [[ $pil = "2" ]]; then
-echo -e $purple"https://bit.ly/3ild93L"
+echo "https://bit.ly/3ild93L"
 elif [[ $pil = "3" ]]; then
 read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
 link=https://id.jagreward.com/member/verify-mobile/$nomor
@@ -52,5 +52,5 @@ curl -s $link
 elif [[ $pil = "0" ]]; then
 echo "MAKASIH UDAH MAKAI TOOL INI"
 else
-echo -e $lightgreen"Ops, Please Try Agains!!"
+echo "Ops, Please Try Agains!!"
 fi
