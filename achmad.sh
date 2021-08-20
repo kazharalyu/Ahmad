@@ -1,29 +1,14 @@
-# firts script
+#script pertamax
 
-
-#code warna
-REED="\033[31;1m"
-GREEN="\033[32;1m"
+#Kode Warna
+MERAH="\033[31;1m"
+HIJAU="\033[32;1m"
 DELETE="\033[0m"
-blue="\033[34;1m"
-purple="\033[35;1m"
-cyan="\033[36;1m"
-white="\033[37;1m"
-yellow="\033[33;1m"
-lightblue="\e[1;34m"
-lightpurple="\e[1;35m"
-lightreed="\e[1;31m"
-lightcyan="\e[1;36m"
-
-#Tampilan Menu
 
 
-# Clear Dekstop
+#menampilkan menu
 
-
-sleep 2
-echo
-echo "____________________________________________________________"
+echo -e  "${MERAH}____________________________________________________________"
 echo "Youtube : Ahmad Guntur Al"
 echo "Owner   : Ahmad Guntur Alfandi"
 echo "Co Owner: Brother Kasyifil Aziz"
@@ -31,26 +16,15 @@ echo "admin : Captain Azka Permana"
 echo "Veteran : Muhammad El Faruq"
 echo "Members : Alisyah, Shofietunisa, Inunk"
 echo "____________________________________________________________"
-echo
-sleep 2
 
-echo "1. Cracked Password"
-echo "2. Send Link Virus"
-echo "3. SpamCall"
-echo "0. EXIT"
+echo -e "${HIJAU}1. Menu Pertamax
+echo "2. Menu Keduax"
+echo "3. Menu Ketigax${HAPUS}"
 
-read -p "Select The Menu : " pil
-
+read -p "Silahkan Pilih Menu: " pil
 if [[ $pil = "1" ]] ;then
-echo "qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
+echo "Kamu Memilih Menu Pertamax"
 elif [[ $pil = "2" ]]; then
-echo "https://bit.ly/3ild93L"
+echo "kamu memilih menu keduax"
 elif [[ $pil = "3" ]]; then
-read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
-link=https://id.jagreward.com/member/verify-mobile/$nomor
-curl -s $link
-elif [[ $pil = "0" ]]; then
-echo "MAKASIH UDAH MAKAI TOOL INI"
-else
-echo "Ops, Please Try Agains!!"
-fi
+echo "kamu memilih menu ketigax
