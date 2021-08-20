@@ -24,14 +24,14 @@ lightcyan="\e[1;36m"
 
 
 echo
-echo -e "$REED____________________________________________________________"
-echo -e "$blueYoutube : Ahmad Guntur Al"
-echo -e "$purpleOwner   : Ahmad Guntur Alfandi"
-echo -e "$purpleCo Owner: Brother Kasyifil Aziz"
-echo -e "$cyan admin : Captain Azka Permana"
-echo -e "$yellow Veteran : Muhammad El Faruq"
-echo -e "$GREEN"Members : Alisyah, Shofietunisa, Inunk"
-echo -e "$blue____________________________________________________________"
+echo -e ${REED}"____________________________________________________________"
+echo -e ${blue}"Youtube : Ahmad Guntur Al"
+echo -e ${purple}"Owner   : Ahmad Guntur Alfandi"
+echo -e ${purple}"Co Owner: Brother Kasyifil Aziz"
+echo -e ${cyan}"admin : Captain Azka Permana"
+echo -e ${yellow}"Veteran : Muhammad El Faruq"
+echo -e ${GREEN}"Members : Alisyah, Shofietunisa, Inunk"
+echo -e ${blue}"____________________________________________________________"
 echo
 
 echo -e ${GREEN}"1. Cracked Password"
@@ -42,15 +42,15 @@ echo -e "0. EXIT${DELETE}"
 read -p "Select The Menu : " pil
 
 if [[ $pil = "1" ]] ;then
-echo -e "$yellow qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
+echo -e $yellow"qwerty123,QWERRTY123,YTREWQ123,ytrewq123,qwerty321. (Test)"
 elif [[ $pil = "2" ]]; then
-echo -e "$purple https://bit.ly/3ild93L"
+echo -e $purple"https://bit.ly/3ild93L"
 elif [[ $pil = "3" ]]; then
 read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
 link=https://id.jagreward.com/member/verify-mobile/$nomor
 curl -s $link
 elif [[ $pil = "0" ]]; then
-echo -e "$lightgreen MAKASIH UDAH MAKAI TOOL INI"
+echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
 else
-echo -e "$lightgreen Ops, Please Try Agains!!"
+echo -e $lightgreen"Ops, Please Try Agains!!"
 fi
