@@ -10,7 +10,6 @@ purple="\033[35;1m"
 cyan="\033[36;1m"
 white="\033[37;1m"
 yellow="\033[33;1m"
-lightgreen="\e[1;32m"
 lightblue="\e[1;34m"
 lightpurple="\e[1;35m"
 lightreed="\e[1;31m"
@@ -25,13 +24,13 @@ lightcyan="\e[1;36m"
 sleep 2
 echo
 echo -e ${REED}"____________________________________________________________"
-echo -e ${blue}"Youtube : Ahmad Guntur Al"
-echo -e ${purple}"Owner   : Ahmad Guntur Alfandi"
-echo -e ${purple}"Co Owner: Brother Kasyifil Aziz"
-echo -e ${cyan}"admin : Captain Azka Permana"
-echo -e ${yellow}"Veteran : Muhammad El Faruq"
-echo -e ${GREEN}"Members : Alisyah, Shofietunisa, Inunk"
-echo -e ${blue}"____________________________________________________________"
+echo "Youtube : Ahmad Guntur Al"
+echo "Owner   : Ahmad Guntur Alfandi"
+echo "Co Owner: Brother Kasyifil Aziz"
+echo "admin : Captain Azka Permana"
+echo "Veteran : Muhammad El Faruq"
+echo "Members : Alisyah, Shofietunisa, Inunk"
+echo "____________________________________________________________"
 echo
 sleep 2
 
@@ -51,7 +50,7 @@ read -p "Masukan Nomor Target Contoh:89528100123 : " nomor
 link=https://id.jagreward.com/member/verify-mobile/$nomor
 curl -s $link
 elif [[ $pil = "0" ]]; then
-echo -e $lightgreen"MAKASIH UDAH MAKAI TOOL INI"
+echo "MAKASIH UDAH MAKAI TOOL INI"
 else
 echo -e $lightgreen"Ops, Please Try Agains!!"
 fi
